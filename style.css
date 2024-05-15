@@ -33,6 +33,10 @@ header img {
     width: 200px;
 }
 
+main img {
+    width: 200px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
