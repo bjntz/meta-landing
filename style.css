@@ -1,18 +1,18 @@
 body {
     background-color: #EDEFEE;
     font-family: Verdana, Tahoma, sans-serif;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0;
 }
 
-h1 {
-    font-size: 3rem;
+header {
+    background-color: lightsteelblue;
 }
 
-h2 {
-    font-size: 2rem;
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
 }
 
 nav ul {
@@ -24,24 +24,54 @@ nav ul {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+.introduction {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+    background-color: lemonchiffon;
 }
 
-main img {
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.introduction p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+ }
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+.foods {
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.foods img {
     width: 200px;
+    height: 150px;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1rem;
 }
+
 footer img {
-    width: 50px;
+    width: 25px;
 }
